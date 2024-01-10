@@ -8,4 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TransactionDetails {
+    private int userID;
+    private int movieID;
 }
